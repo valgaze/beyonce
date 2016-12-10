@@ -1,0 +1,20 @@
+{
+    "name": "beyonce",
+    "version": "1.0.0",
+    "description": "Beyonce singin & dancing in your terminal",
+    "main": "bin/beyonce.js",
+    "dependencies": {
+        "ascii-animation": "^1.0.4",
+        "keypress": "^0.2.1",
+        "npmusic": "^1.0.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Victor Algaze",
+    "license": "ISC",
+    "bin": {
+        "beyonce": "index.js"
+    }
+}
