@@ -24,18 +24,15 @@ function _play() {
     }, CONFIG["fudge_factor"])
     var spawn = require('child_process').spawn;
     // console.log("Invoking local npmusic with flags:", flags);
-    var cmd = spawn('./node_modules/.bin/npmusic', flags); //Need flag builder
+    var cmd = spawn(__dirname + '/node_modules/.bin/npmusic', flags);
 
     cmd.on('error', function (err) {
         console.log("There was an error:", err);
     });
 
-    cmd.stdout.on('data', function (data) {
-        console.log(data.toString());
-    });
 
     cmd.on('exit', function (code) {
-      console.log("\n\nDONE!", code);
+      console.log("Bey out!");
       process.exit(0);
     });
 
