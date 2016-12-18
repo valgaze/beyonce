@@ -1,19 +1,19 @@
 {
-    "name": "beyonce",
-    "version": "1.0.0",
-    "description": "Beyonce singin & dancing in your terminal",
-    "main": "bin/beyonce.js",
-    "dependencies": {
-        "ascii-animation": "^1.0.4",
-        "npmusic": "^1.0.7"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Victor Algaze",
-    "license": "ISC",
-    "bin": {
-        "beyonce": "index.js"
-    }
+  "name": "beyonce",
+  "version": "1.0.1",
+  "description": "Beyonce singin & dancing in your terminal",
+  "main": "bin/beyonce.js",
+  "dependencies": {
+    "ascii-animation": "^1.0.4",
+    "npmusic": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Algaze",
+  "license": "ISC",
+  "bin": {
+    "beyonce": "index.js"
+  }
 }
